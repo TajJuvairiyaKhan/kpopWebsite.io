@@ -67,6 +67,7 @@
   <link rel="stylesheet" href="kstyle.css" />
 </body>
 </html>
+```css
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
@@ -220,6 +221,7 @@ footer {
   background-color: #eee;
   margin-top: 20px;
 }
+```js
 let cartCount = 0;
 
 function addToCart() {
