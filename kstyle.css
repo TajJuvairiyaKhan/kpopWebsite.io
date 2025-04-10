@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf6f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff7eb3;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  .hero {
+    background: linear-gradient(to right, #ffc0cb, #ff69b4);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    background-color: white;
+    color: #ff1493;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #ffe4f2;
+  }
+  .hero {
+    background-image: url('https://d31xsmoz1lk3y3.cloudfront.net/games/imgur/QWgiBqv.jpg'); /* Update path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* dark overlay for better text contrast */
+    z-index: 1;
+  }
+  
+  .hero h2,
+  .hero p,
+  .hero .btn {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    background-color: #ff69b4;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #ff1493;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff1493;
+  }
+  .contact {
+    background-color: #fff0f5;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    color: #ff1493;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    border: 2px solid #ffb6c1;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .contact button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact button:hover {
+    background-color: #ff1493;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    margin-top: 20px;
+  }
